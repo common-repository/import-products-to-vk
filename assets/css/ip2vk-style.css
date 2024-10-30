@@ -1,0 +1,13 @@
+.ip2vk_bold {font-weight: 700;}
+.ip2vk_ul {list-style-type: square; margin: 5px 0px 3px 30px;}
+.ip2vk_tr {border-top-width: 2px; border-top-style: dashed; border-top-color: #e7e2e2;}
+.ip2vk_input, .ip2vk_textarea {width: 100%; padding: 3px 24px 3px 8px !important;}
+.ip2vk_input::placeholder, .ip2vk_textarea::placeholder {color: #ccc; font-style: italic;}
+#ip2vk_submit_clear_logs {margin-top: 5px;} #ip2vk_no_group_id_arr, #ip2vk_add_in_name_arr, #ip2vk_params_arr, #ip2vkp_exclude_cat_arr, #ip2vkbe_books_cat_arr {min-height: 280px !important;} 
+.wp-admin select {padding: 3px 24px 3px 8px !important;} /* .form-table {table-layout: fixed !important;} */
+.meta-box-sortables select {width: 100% !important;}
+.meta-box-sortables input[type="text"] {width: 100% !important;}
+.meta-box-sortables input[type="number"] {width: 100% !important;}
+.woocommerce table.form-table input[type="text"], .woocommerce table.form-table input[type="number"] {max-width: 100% !important;} 
+/* ? .woocommerce table.form-table select, убрал тк. какой то конфликт со стилями YITH WooCommerce Tab Manager Premium при активной PRO */
+#ip2vk_extensions .form-table td p {font-size: 18px !important;}
